@@ -19,16 +19,16 @@ def print_banner():
     """Print the application banner"""
     banner = """
 ╔══════════════════════════════════════════════════════════════╗
-║                    🤖 RAG CHATBOT                           ║
-║              Powered by Llama-4-Maverick-17B-128E-Instruct  ║
+║                    🤖 RAG CHATBOT                            ║
+║         Powered by Llama-4-Maverick-17B-128E-Instruct        ║
 ║                                                              ║
 ║  Features:                                                   ║
-║  • Retrieval-Augmented Generation (RAG)                     ║
-║  • Speech-to-Text & Text-to-Speech                         ║
-║  • Modern Web GUI & Command Line Interface                  ║
-║  • Custom Knowledge Base Support                            ║
-║  • Real-time Audio Processing                               ║
-║  • Advanced Image-Text-to-Text Capabilities                ║
+║  • Retrieval-Augmented Generation (RAG)                      ║
+║  • Speech-to-Text & Text-to-Speech                           ║
+║  • Modern Web GUI & Command Line Interface                   ║
+║  • Custom Knowledge Base Support                             ║
+║  • Real-time Audio Processing                                ║
+║  • Advanced Image-Text-to-Text Capabilities                  ║
 ╚══════════════════════════════════════════════════════════════╝
     """
     print(banner)
