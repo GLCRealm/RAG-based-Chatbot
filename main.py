@@ -105,8 +105,10 @@ def run_quick_test():
     print("🧪 Running quick test...")
     
     try:
-        from model import test_rag_chatbot
-        test_rag_chatbot()
+        from model_llama4 import Llama4RAGChatbot
+        chatbot = Llama4RAGChatbot()
+        response = chatbot.generate_response("What is artificial intelligence?")
+        print(f"✅ Test successful! Response: {response[:100]}...")
     except Exception as e:
         print(f"❌ Test failed: {e}")
 
